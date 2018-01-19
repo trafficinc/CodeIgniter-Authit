@@ -56,7 +56,8 @@ class Authit_model extends CI_Model {
 		$data = array(
 			'email' => filter_var($email, FILTER_SANITIZE_EMAIL),
 			'password' => $password, // Should be hashed
-			'created' => date('Y-m-d H:i:s')
+			'created' => date('Y-m-d H:i:s'),
+			'last_login' => date('Y-m-d H:i:s')
 		);
 		$this->db->insert($this->users_table, $data);
 		return $this->db->insert_id();
