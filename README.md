@@ -1,6 +1,8 @@
 CodeIgniter Authit
 ==================
 
+**** This library will no longer be updated, it is suggested to move to CI4, which supports PHP7+ ****
+
 A lightweight and flexible CodeIgniter 3 authentication library. It comes packaged with an example `Auth` class and related views so that you can get your CI project up and running in minutes. Test/View, sent emails with an email preview that allows you to view the last sent email by going to ...auth/sentemails. See config/authit to turn on for development, off for production, and on each authentication action you want it on, already enabled on password reset functionality by default.  
 
 Requirements
