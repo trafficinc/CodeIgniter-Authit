@@ -1,8 +1,3 @@
-> **Note:** this project is **not** being maintained, so please go to the new PHP framework **Wayfinder**, here:
-
-[Wayfinder PHP Framework](https://github.com/trafficinc/wayfinder-app)
-
-
 CodeIgniter Authit
 ==================
 
